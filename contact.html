@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Moses Kracar-Tee Norris" />
+    <meta
+      name="description"
+      content="Get in touch with the Farmington Hotel Restaurant in Harbel RIA, Margibi County, for bookings, catering, or general inquiries."
+    />
+
+    <title>Contact Us | Peaceful Delight Restaurant</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+    <link rel="stylesheet" href="styles/style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <img
+          src="images/farmingtonlogo.jpg"
+          alt="Farmington Hotel Logo"
+          class="logo-icon-image"
+        />
+        <span class="logo-text">Farmington Hotel</span>
+      </div>
+      <nav class="desktop-nav">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="menu.html">Menu</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+          <li><a href="contact.html" class="active">Contact</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="feedback.html">Feedback</a></li>
+          <li><a href="reservations.html">Reserve Table</a></li>
+        </ul>
+      </nav>
+      <div class="header-controls">
+        <button
+          id="mobile-nav-toggle"
+          class="mobile-nav-toggle"
+          aria-label="Toggle navigation"
+        >
+          <i class="fas fa-bars"></i>
+        </button>
+
+        <button
+          id="theme-toggle"
+          class="theme-toggle"
+          aria-label="Toggle dark mode"
+        ></button>
+      </div>
+    </header>
+
+    <div class="mobile-nav-menu" id="mobile-nav-menu">
+      <i class="fas fa-times close-btn" id="mobile-nav-close"></i>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="menu.html">Menu</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="contact.html" class="active">Contact</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="feedback.html">Feedback</a></li>
+        <li><a href="reservations.html">Reserve Table</a></li>
+      </ul>
+    </div>
+
+    <main>
+      <section class="hero-section contact-hero">
+        <img
+          src="images/farmington-conferencehall1.jpg"
+          alt="Farmington Hotel Restaurant Contact"
+          class="hero-image"
+        />
+        <div class="hero-content">
+          <h1>Contact The Farmington Hotel Liberia</h1>
+          <p>
+            We’re happy to answer any questions about reservations, catering, or
+            our menu.
+          </p>
+        </div>
+      </section>
+
+      <section class="contact-section container">
+        <div class="contact-wrapper">
+          <div class="contact-info">
+            <h2>Contact Information</h2>
+
+            <div class="info-group">
+              <p>
+                <i class="fas fa-map-marker-alt"></i> Location: Robert
+                International Airport-Harbel, Airport Main Entry, Margibi
+                County, Liberia
+              </p>
+              <a
+                href="https://maps.google.com/?q=Farmington+Hotel+Restaurant+Margibi"
+                target="_blank"
+                class="map-link"
+                >View on Map →</a
+              >
+            </div>
+
+            <p class="info-group">
+              <i class="fas fa-phone"></i> Call Us:
+              <a href="tel:+231775998888">+231880165653</a>
+            </p>
+            <p class="info-group">
+              <i class="fas fa-envelope"></i> Email:
+              <a href="mailto:contact@peacedelight.com.ng"
+                >info@thefarmingtonhotel.com</a
+              >
+            </p>
+
+            <div class="hours-group">
+              <h3>Opening Hours</h3>
+              <p>Mon - Fri: 11:00 AM - 10:00 PM</p>
+              <p>Sat - Sun: 12:00 PM - 11:00 PM</p>
+            </div>
+
+            <div class="map-container">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15878.685244510007!2d5.78768235!3d5.52440955!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1041c2c43d70783f%3A0x6d11f7c5f49d2179!2sWarri%2C%20Delta%20State%2C%20Nigeria!5e0!3m2!1sen!2sus!4v1699999999999!5m2!1sen!2sus"
+                width="100%"
+                height="250"
+                style="border: 0"
+                allowfullscreen=""
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+                title="Google Map showing Farmington Hotel location"
+              >
+              </iframe>
+            </div>
+          </div>
+
+          <div class="contact-form-wrapper">
+            <h2>Send Us a Message</h2>
+            <form class="contact-form">
+              <div class="form-group">
+                <label for="name">Full Name *</label>
+                <input
+                  type="text"
+                  id="name"
+                  name="name"
+                  placeholder="Enter your full name"
+                  required
+                  autocomplete="name"
+                />
+              </div>
+              <div class="form-group">
+                <label for="email">Email Address *</label>
+                <input
+                  type="email"
+                  id="email"
+                  name="email"
+                  placeholder="Enter your email"
+                  required
+                  autocomplete="email"
+                />
+              </div>
+              <div class="form-group">
+                <label for="subject">Subject</label>
+                <select id="subject" name="subject">
+                  <option value="" disabled selected>Select a subject</option>
+                  <option value="reservation">Reservation Inquiry</option>
+                  <option value="catering">Catering Inquiry</option>
+                  <option value="feedback">Feedback</option>
+                  <option value="other">Other Inquiry</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label for="message">Message *</label>
+                <textarea
+                  id="message"
+                  name="message"
+                  rows="6"
+                  placeholder="Write your message here..."
+                  required
+                ></textarea>
+              </div>
+              <button type="submit" class="btn-primary full-width">
+                Submit Message
+              </button>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="footer-content container">
+        <p>© 2025 Farmington Hotel Toscana Restaurant. All rights reserved.</p>
+        <img
+          src="images/vendor-logo.png"
+          alt="Vendor Logo"
+          width="100"
+          height="55"
+        />
+        <div class="footer-social-links">
+          <a
+            href="https://www.facebook.com"
+            target="_blank"
+            aria-label="Facebook"
+          >
+            <i class="fab fa-facebook-f"></i>
+          </a>
+          <a
+            href="https://www.instagram.com"
+            target="_blank"
+            aria-label="Instagram"
+          >
+            <i class="fab fa-instagram"></i>
+          </a>
+          <a
+            href="https://twitter.com"
+            target="_blank"
+            aria-label="X (Twitter)"
+          >
+            <i class="fab fa-x-twitter"></i>
+          </a>
+          <a href="https://www.tiktok.com" target="_blank" aria-label="TikTok">
+            <i class="fab fa-tiktok"></i>
+          </a>
+          <a
+            href="https://www.youtube.com"
+            target="_blank"
+            aria-label="YouTube"
+          >
+            <i class="fab fa-youtube"></i>
+          </a>
+        </div>
+        <div class="footer-links">
+          <a href="about.html">About Us</a>
+          <a href="contact.html">Contact</a>
+          <a href="feedback.html">Feedback</a>
+          <a href="reservations.html">Reservations</a>
+        </div>
+        <img
+          src="images/vendor-logo.png"
+          alt="Vendor Logo"
+          width="100"
+          height="55"
+        />
+      </div>
+    </footer>
+
+    <script src="scripts/script.js"></script>
+  </body>
+</html>

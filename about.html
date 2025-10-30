@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Moses Kracar-Tee Norris" />
+    <meta
+      name="description"
+      content="Learn about the mission and history of Farmington Hotel Toscana Restaurant in RIA Harbel, dedicated to Liberian and Continental cuisine."
+    />
+
+    <title>About Us | Farmington Hotel Restaurant</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+    <link rel="stylesheet" href="styles/style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <img
+          src="images/farmingtonlogo.jpg"
+          alt="Farmington Hotel Logo"
+          class="logo-icon-image"
+        />
+        <span class="logo-text">Farmington Hotel</span>
+      </div>
+      <nav class="desktop-nav">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="menu.html">Menu</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="about.html" class="active">About</a></li>
+          <li><a href="feedback.html">Feedback</a></li>
+          <li><a href="reservations.html">Reserve Table</a></li>
+        </ul>
+      </nav>
+      <div class="header-controls">
+        <button
+          id="mobile-nav-toggle"
+          class="mobile-nav-toggle"
+          aria-label="Toggle navigation"
+        >
+          <i class="fas fa-bars"></i>
+        </button>
+
+        <button
+          id="theme-toggle"
+          class="theme-toggle"
+          aria-label="Toggle dark mode"
+        >
+          <i class="fas fa-sun"></i>
+          <i class="fas fa-moon"></i>
+        </button>
+      </div>
+    </header>
+    <div class="mobile-nav-menu" id="mobile-nav-menu">
+      <i class="fas fa-times close-btn" id="mobile-nav-close"></i>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="menu.html">Menu</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="about.html" class="active">About</a></li>
+        <li><a href="feedback.html">Feedback</a></li>
+        <li><a href="reservations.html">Reserve Table</a></li>
+      </ul>
+    </div>
+
+    <main class="container page-content">
+      <section class="about-section">
+        <h1 class="page-title">
+          Our Story: The Heart of Farmington Toscana Restaurant
+        </h1>
+        <p class="section-description">
+          Serving the best of traditional Liberian cuisine blended with
+          contemporary Continental dishes since 2017.
+        </p>
+
+        <!-- THIS WRAPPER ENABLES THE RESPONSIVE GRID LAYOUT -->
+        <div class="about-grid-wrapper">
+          <img
+            src="images/chef-and-team.jpg"
+            alt="Chef and team smiling in Farmington Hotel kitchen"
+            class="about-hero-image"
+            loading="lazy"
+          />
+
+          <div class="text-block">
+            <h3>The Vision of Farmington Hotel</h3>
+            <p>
+              Farmington Toscana Restaurant was founded on the simple principle
+              that great food brings great joy and peace. Located in the heart
+              of the Robert International Airport, we aim to be more than just a
+              hotel or restaurant—we are a vibrant meeting point for family,
+              friends, and food lovers. Our kitchen is dedicated to preserving
+              the rich, authentic flavors of Liberian cooking while introducing
+              exciting, fresh interpretations of global cuisine.
+            </p>
+          </div>
+
+          <div class="text-block">
+            <h3>Our Commitment to Quality and Heritage</h3>
+            <p>
+              We believe that the best meals start with the best ingredients.
+              That’s why we source our ingredients locally and ensure every dish
+              is prepared with passion and attention to detail. From the
+              perfectly spiced Jollof Rice to our fresh seafood, quality is the
+              secret ingredient in everything we serve. Our chefs honor
+              tradition while pushing the boundaries of taste.
+            </p>
+          </div>
+
+          <div class="text-block">
+            <h3>A Seamless Digital Experience</h3>
+            <p>
+              Recognizing the modern pace of life, we have developed this
+              comprehensive digital platform. It allows you, our valued
+              customer, to quickly scan a QR code, browse our entire 12-item
+              menu, get **random dish suggestions, and provide **instant
+              feedback, all from the convenience of your mobile device. We
+              embrace technology to enhance your dining experience.
+            </p>
+            <a href="menu.html" class="btn-primary large">View Our Full Menu</a>
+          </div>
+        </div>
+        <!-- END WRAPPER -->
+      </section>
+    </main>
+
+    <footer>
+      <div class="footer-content container">
+        <p>
+          &copy; 2025 Farmington Hotel Toscana Restaurant. All rights reserved.
+        </p>
+        <img
+          src="images/vendor-logo.png"
+          alt="Vendor Logo"
+          width="100"
+          height="55"
+        />
+        <div class="footer-social-links">
+          <a
+            href="https://www.facebook.com"
+            target="_blank"
+            aria-label="Facebook"
+          >
+            <i class="fab fa-facebook-f"></i>
+          </a>
+          <a
+            href="https://www.instagram.com"
+            target="_blank"
+            aria-label="Instagram"
+          >
+            <i class="fab fa-instagram"></i>
+          </a>
+          <a
+            href="https://twitter.com"
+            target="_blank"
+            aria-label="X (Twitter)"
+          >
+            <i class="fab fa-x-twitter"></i>
+          </a>
+          <a href="https://www.tiktok.com" target="_blank" aria-label="TikTok">
+            <i class="fab fa-tiktok"></i>
+          </a>
+          <a
+            href="https://www.youtube.com"
+            target="_blank"
+            aria-label="YouTube"
+          >
+            <i class="fab fa-youtube"></i>
+          </a>
+        </div>
+        <div class="footer-links">
+          <a href="about.html">About Us</a>
+          <a href="contact.html">Contact</a>
+          <a href="feedback.html">Feedback</a>
+          <a href="reservations.html">Reservations</a>
+        </div>
+        <img
+          src="images/vendor-logo.png"
+          alt="Vendor Logo"
+          width="100"
+          height="55"
+        />
+      </div>
+    </footer>
+
+    <script src="scripts/script.js"></script>
+  </body>
+</html>
